@@ -11,6 +11,7 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/hksm_0.1</module>
+    <module>jobs/process/sample_0.1</module>
   </modules>
   <properties>
     <talend.project.name>LOCAL_PROJECT</talend.project.name>
@@ -42,6 +43,7 @@
             <source>1.8</source>
             <target>1.8</target>
             <compilerId>jdt</compilerId>
+            <mainClass>local_project.hksm_0_1.HKSM</mainClass>
           </configuration>
         </plugin>
         <plugin>
