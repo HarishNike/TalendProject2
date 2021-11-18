@@ -104,6 +104,14 @@
                   <tarLongFileMode>gnu</tarLongFileMode>
                   <appendAssemblyId>false</appendAssemblyId>
                   <finalName>${talend.job.finalName}</finalName>
+<archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>local_project.sample_0_1.Sample</mainClass>
+            </manifest>
+          </archive>
+<mainClass>local_project.sample_0_1.Sample</mainClass>
+
                 </configuration>
               </execution>
             </executions>
